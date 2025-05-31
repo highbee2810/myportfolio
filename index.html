@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="DevOps Engineer Portfolio - Showcasing infrastructure automation, cloud architecture, and CI/CD expertise" />
+    <title>DevOps Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-content">
+        <div class="logo">
+          <a href="#home">DevOps.Portfolio</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#" class="resume-btn">Resume</a></li>
+        </ul>
+        <div class="menu-btn">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="intro">Hi, my name is</p>
+        <h1 class="name">Your Name</h1>
+        <h2 class="title" id="typing-text">DevOps Engineer</h2>
+        <p class="description">
+          I'm a DevOps engineer specializing in building and optimizing scalable infrastructure,
+          implementing CI/CD pipelines, and automating development workflows.
+          Currently focused on cloud-native solutions and infrastructure as code.
+        </p>
+        <div class="cta-buttons">
+          <a href="#projects" class="cta-btn">View My Work</a>
+          <a href="#contact" class="cta-btn">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Hello! I'm a passionate DevOps engineer with a strong foundation in automating and 
+            optimizing mission-critical deployments in cloud platforms, primarily AWS and Azure. 
+            My journey in tech started with a fascination for automation and infrastructure scalability.
+          </p>
+          <p>
+            I specialize in implementing CI/CD pipelines, container orchestration with Kubernetes,
+            and infrastructure as code using tools like Terraform and Ansible. My focus is on 
+            building resilient systems that can scale efficiently while maintaining security 
+            and performance.
+          </p>
+          <div class="tech-stack">
+            <h3>Technologies I work with:</h3>
+            <ul class="tech-list">
+              <li>AWS/Azure</li>
+              <li>Kubernetes</li>
+              <li>Docker</li>
+              <li>Terraform</li>
+              <li>Jenkins</li>
+              <li>GitHub Actions</li>
+              <li>Ansible</li>
+              <li>Python</li>
+              <li>Bash</li>
+              <li>Linux/Unix</li>
+              <li>Prometheus</li>
+              <li>Grafana</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="profile.jpg" alt="Profile Picture">
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <h2 class="section-title">Skills & Technologies</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Cloud & Infrastructure</h3>
+          <div class="skill-bars">
+            <div class="skill-bar">
+              <div class="skill-info">
+                <span>AWS</span>
+                <span>90%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" style="width: 90%"></div>
+              </div>
+            </div>
+            <!-- Add more skill bars here -->
+          </div>
+        </div>
+        <!-- Add more skill categories here -->
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+      <h2 class="section-title">Where I've Worked</h2>
+      <div class="experience-container">
+        <div class="tabs">
+          <button class="tab-btn active" data-company="company1">Tech Company A</button>
+          <button class="tab-btn" data-company="company2">Tech Company B</button>
+          <button class="tab-btn" data-company="company3">Tech Company C</button>
+        </div>
+        <div class="tab-content active" id="company1">
+          <h3>Senior DevOps Engineer <span>@ Tech Company A</span></h3>
+          <p class="duration">January 2022 - Present</p>
+          <ul class="job-description">
+            <li>Led the migration of legacy infrastructure to Kubernetes</li>
+            <li>Implemented GitOps practices using ArgoCD</li>
+            <li>Designed multi-region disaster recovery solution</li>
+          </ul>
+        </div>
+        <!-- Add more tab content here -->
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <h2 class="section-title">Some Things I've Built</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="project1.jpg" alt="Project 1">
+          </div>
+          <div class="project-content">
+            <h3>Cloud Infrastructure Automation</h3>
+            <p>Developed a comprehensive IaC solution using Terraform to manage multi-cloud infrastructure.</p>
+            <ul class="project-tech">
+              <li>Terraform</li>
+              <li>AWS</li>
+              <li>Azure</li>
+            </ul>
+            <div class="project-links">
+              <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more project cards here -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <p>
+          I'm currently open to new opportunities and collaborations. 
+          Whether you have a question or just want to say hi, I'll try my best to get back to you!
+        </p>
+        <div class="social-links">
+          <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+          </div>
+          <input type="text" name="subject" placeholder="Subject" required>
+          <textarea name="message" placeholder="Message" rows="5" required></textarea>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Designed & Built with ❤️ by <a href="#">Your Name</a></p>
+      <p>© <span id="current-year"></span> All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html> 
